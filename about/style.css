@@ -1,20 +1,56 @@
 * {
-    margin: 10px;
-    background-color: rgb(18, 28, 177);
+    margin: 5px;
+    background-color: #052d839f;
 }
 header {
     font-size: 35px;
-    color: fuchsia;
+    color: rgb(159, 13, 243);
 }
-h1, h3 {
+
+.box {
+    padding: 5px;
+    border: 3px solid black;
+    width: 90%;
+    height: auto;
+    margin-left: 50px;
+}
+.about-me {
+    display: flex;
+    position: relative;
+    border: 5px solid;
+    box-shadow: 10px 5px 5px 10px cadetblue;
+    margin: 5%;
+}
+
+#me {
+
+}
+
+.me {
+    margin-left: 5%;
+    margin-top: 5%;
+}
+
+h2 {
+   color: lightblue;
+    margin-left: 10%;
+    margin-top: 5%;
+}
+ h3 {
     text-align: center;
-    color: rgb(187, 216, 23);
+    color: rgb(29, 168, 29);
+    font-size: 30px;
+}
+
+#pr {
+    margin-top: 5%;
+    border: 5px solid;
 }
 
 .pr, .work, .story {
     text-justify: auto;
     color: lightblue;
-
+    font-size: 25px;
 }
 .container {
   box-sizing: border-box;
@@ -36,8 +72,8 @@ h1, h3 {
     position: absolute;
     width: 500px;
     height: 400px;
-    top: 20px;
-    left: 20px;
+    top: 10px;
+    left: 10px;
     opacity: 0;
     transition: opacity 0.5s ease;
 }
@@ -80,8 +116,12 @@ h1, h3 {
 
 .button {
     display: inline;
-   
+    font-size: 20px;
+    padding-left: 5px;
+    padding-right: 5px;
 }
 button {
-    background-color: cornsilk; 
+    background-color: rgb(190, 180, 139); 
+    border-radius: 10px;
+    border: black solid 3px;
 }

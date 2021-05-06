@@ -1,41 +1,43 @@
 <!DOCTYPE html>
 <html lang="en">
+
   <head>
     <meta charset="UTF-8" />
     <link rel="icon" type="image/svg+xml" href="/assets/favicon.17e50649.svg" />
     <!-- <link rel="stylesheet" href="style.css"> -->
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <style>
+      * {
+        margin: 0;
+      }
 
+      .absolute {
+        position: absolute;
+        top: 50%;
+        transform: translate(-50%, -50%);
+        left: 50%;
+      }
 
-* {
-  margin: 0;
-}
+      .intro {
+        color: fuchsia;
+        padding: 20px;
+      }
 
-.absolute {
-  position: absolute;
-  top: 50%;
-  transform: translate(-50%, -50%);
-  left: 50%;
-}
+      .size {
+        width: 100%;
+        height: 100%;
+      }
 
-.intro {
-  color: fuchsia;
-  padding: 20px;
-}
+      element.style {
+        width: 100vh;
+        height: 100vh;
+      }
 
-.size {
-  width: 100%;
-  height: 100%;
-}
- element.style {
-   width: 100vh;
-   height: 100vh;
- }
     </style>
     <title>Vite App</title>
   <script type="module" crossorigin src="/assets/index.a145101e.js"></script>
 </head>
+
   <body>
     <div id="app">
       <div class="absolute">
@@ -44,14 +46,15 @@
           <p>Welcome To My Portfolio</p>
         </div>
         <div>
-          <a href="">
-            <button class="about">ABOUT ME</button></a>
-          <button class="businee">BUSINESS EXPERIENCE</button>
-          <button class="projects">PROJECTS</button>
+          <a href="/index.html"><button class="home">HOME</button></a>
+          <a href="/about/about.html"><button class="about">ABOUT ME</button></a>
+          <a href="/business/business.html"><button class="business">BUSINESS EXPERIENCE</button></a>
+          <a href="https://stacy125.github.io/Projects/"><button class="projects">PROJECTS</button></a>
           <button class="contact">CONTACT INFO</button>
         </div>
       </div>
     </div>
     
   </body>
+
 </html>

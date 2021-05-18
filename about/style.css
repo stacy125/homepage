@@ -76,7 +76,7 @@ h3 {
 .image-container img {
     box-sizing: border-box;
     width: 100%;
-    padding: 2vmin;
+    padding: 2rem;
 
 
 }
@@ -101,7 +101,7 @@ h3 {
 .slider-container {
     display: flex;
     position: relative;
-    padding: 2vmin;
+    padding: 2rem;
     height: 250px;
     width: 100%;
 }
@@ -250,7 +250,7 @@ button {
 
     .image-container img {
         width: 600px;
-        height: 500px;
+        height: 460px;
 
     }
 
@@ -258,7 +258,7 @@ button {
     .transition-image {
         position: absolute;
         width: 600px;
-        height: 500px;
+        height: 460px;
         top: 0;
         left: 0;
         opacity: 0;

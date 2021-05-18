@@ -113,7 +113,7 @@ h3 {
     width: 100%;
     top: 0px;
     left: 0px;
-    background-image: url(iguana.png);
+    background-image: url(../about/iguana.png);
     background-position: center;
     animation: slide 20s infinite;
     background-color: black;
@@ -121,19 +121,19 @@ h3 {
 
 @keyframes slide {
     25% {
-        background-image: url(iguana.png);
+        background-image: url(../about/iguana.png);
     }
 
     50% {
-        background-image: url(cave.png);
+        background-image: url(../about/cave.png);
     }
 
     75% {
-        background-image: url(water-cave.png);
+        background-image: url(../about/water-cave.png);
     }
 
     100% {
-        background-image: url(sunset.png);
+        background-image: url(../about/sunset.png);
     }
 }
 

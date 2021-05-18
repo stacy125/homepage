@@ -1,56 +1,116 @@
-* {
-    margin: 20px;
-}
+ * {
+     margin: 10px;
+ }
 
-body {
-    background-color: #3252e4;
+ body {
+     background-color: #3252e4;
+     margin: 2;
+ }
 
-}
-
-.business {
-    background-color: #7700ff;
-    border: 3px solid black;
-    width: 80%;
-    margin-left: 10%;
-}
+ .business {
+     background-color: #7700ff;
+     border: 3px solid black;
+     width: 100%;
+     margin-left: 1%;
+ }
 
 .info {
-    font-size: 25px;
+    font-size: 1.5rem;
     box-sizing: border-box;
     border: black;
 }
 
 h1 {
-    font-size: 30px;
+    font-size: 2.0rem;
 }
 
 .hand {
-    max-width: 50%; 
-    min-width: 300px;
+    max-width: 50%;
+    min-width: 50vw;
     width: 300px;
     height: auto;
 }
 
-.work {
-    text-justify: auto;
-    color: lightblue;
-    border: darkblue;
+  .work {
+      text-justify: auto;
+      color: lightblue;
+      border: darkblue;
+  }
 
-}
+  button {
+      background-color: rgb(204, 178, 139);
+      border: 3px solid black;
+      border-radius: 10px;
+  }
 
-button {
-    background-color: rgb(204, 178, 139);
-    border: 3px solid black;
-    border-radius: 10px;
-    margin-left: 0%;
-}
+  .button {
+      display: inline;
+      padding-left: 5px;
+      padding-right: 5px;
+      margin-left: 0;
 
-.button {
-    display: inline-block;
-    width: 100%;
+  }
 
-}
+  .text {
+      color: rgb(20, 221, 211);
+  }
 
-.text {
-    color: rgb(20, 221, 211);
+@media only screen and (max-width: 1000) {
+    
+    * {
+        margin: 20px;
+    }
+    
+    body {
+        background-color: #3252e4;
+    
+    }
+    
+    .business {
+        background-color: #7700ff;
+        border: 3px solid black;
+        width: 80%;
+        margin-left: 10%;
+    }
+    
+    .info {
+        font-size: 25px;
+        box-sizing: border-box;
+        border: black;
+    }
+    
+    h1 {
+        font-size: 30px;
+    }
+    
+    .hand {
+        max-width: 50%; 
+        min-width: 300px;
+        width: 300px;
+        height: auto;
+    }
+    
+    .work {
+        text-justify: auto;
+        color: lightblue;
+        border: darkblue;
+    
+    }
+    
+    button {
+        background-color: rgb(204, 178, 139);
+        border: 3px solid black;
+        border-radius: 10px;
+        margin-left: 0%;
+    }
+    
+    .button {
+        display: inline-block;
+        width: 100%;
+    
+    }
+    
+    .text {
+        color: rgb(20, 221, 211);
+    }
 }

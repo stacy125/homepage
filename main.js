@@ -5,7 +5,7 @@ import * as dat from "https://cdn.skypack.dev/dat.gui"
 
 
 
-const gui = new dat.GUI()
+// const gui = new dat.GUI()
 const world = {
   plane: {
     width: 400,
@@ -54,10 +54,10 @@ function generatePlane() {
   )
 }
 
-gui.add(world.plane, 'width', 1, 500).onChange(generatePlane)
-gui.add(world.plane, 'height', 1, 500).onChange(generatePlane)
-gui.add(world.plane, 'widthSegments', 1, 100).onChange(generatePlane)
-gui.add(world.plane, 'heightSegments', 1, 100).onChange(generatePlane)
+// gui.add(world.plane, 'width', 1, 500).onChange(generatePlane)
+// gui.add(world.plane, 'height', 1, 500).onChange(generatePlane)
+// gui.add(world.plane, 'widthSegments', 1, 100).onChange(generatePlane)
+// gui.add(world.plane, 'heightSegments', 1, 100).onChange(generatePlane)
 
 const raycaster = new THREE.Raycaster()
 const scene = new THREE.Scene()

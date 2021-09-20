@@ -114,3 +114,9 @@ h1 {
         color: rgb(20, 221, 211);
     }
 }
+
+.workskills {
+    padding-top: 20%;
+    font-size: x-large;
+    color: aliceblue;
+}

@@ -44,11 +44,10 @@ h1 {
   }
 
   .button {
-      display: inline;
-      padding-left: 5px;
-      padding-right: 5px;
-      margin-left: 0;
-
+      /* display: inline; */
+      /* padding-left: 5px; */
+      /* padding-right: 5px; */
+      /* margin-left: 0; */
   }
 
   .text {
